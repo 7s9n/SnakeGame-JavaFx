@@ -25,12 +25,13 @@ public class Window extends Stage {
         this.setScene(surface);
         this.setResizable(false);
     }
-    public Window(int width , int height){
+    public Window(int width , int height , String title){
         this();
         this.canvas.setWidth(width);
         this.canvas.setHeight(height);
         this.width = width;
         this.height = height;
+        this.setTitle(title);
     }
     public void draw(Drawable object){
         object.draw(context);

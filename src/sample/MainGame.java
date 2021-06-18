@@ -61,7 +61,7 @@ public class MainGame {
         }
     }
     private void initVariable(){
-        this.window = new Window(Constants.WINDOW_WIDTH , Constants.WINDOW_HEIGHT);
+        this.window = new Window(Constants.WINDOW_WIDTH , Constants.WINDOW_HEIGHT , "Snake Game");
         this.snake = new Snake();
         this.fruit = new Fruit();
         this.isAlive = true;
